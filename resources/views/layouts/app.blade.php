@@ -7,5 +7,7 @@
 </head>
 <body>
 	@yield('content')
+
+	@include('inc.aside')
 </body>
 </html>
